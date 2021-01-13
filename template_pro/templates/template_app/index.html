@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<!-- <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>WELCOME INDEX</title>
+  </head>
+  <body>
+    <h1>welcome index</h1>
+
+  </body>
+</html> -->
+{% extends "template_app/base.html" %}
+{% block body_block %}
+<h1>welcome index</h1>
+<h2>This is index.html showin</h2>
+{{ text|cut:'world' }}
+{{ numbers|add:"20" }}
+{% endblock %}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>WELCOME RELATIVE URL TEMPLATES</title>
+  </head>
+  <body>
+    <h1>welcome RELATIVE</h1>
+  <!--  <a href="template_app/other.html">The other page</a>  -->
+  <a href="{% url 'template_app:other'%}">other page</a>
+  <a href="{% url 'admin:index'%}">link to admin </a>
+  <a href="{% url 'index'%}">Link to Index</a>
+  <!--REMAINDER -make sure there is no spaces between '' and the inside content -->
+  </body>
+</html>
